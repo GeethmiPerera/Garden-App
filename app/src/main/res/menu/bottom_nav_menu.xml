@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Home"
+        android:icon="@drawable/baseline_add_home_24"
+        />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Temperature"
+        android:icon="@drawable/baseline_brightness_low_24"
+        android:id="@+id/temperature"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Task"
+        android:icon="@drawable/baseline_add_task_24"
+        android:id="@+id/task"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Updates"
+        android:icon="@drawable/baseline_border_color_24"
+        android:id="@+id/updates"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Location"
+        android:icon="@drawable/baseline_add_location_alt_24"
+        android:id="@+id/location"/>
+</menu>
